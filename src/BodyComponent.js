@@ -3,15 +3,19 @@ import './App.css';
 import Cards from './Cards';
 
 
-function BodyComponent () {
-   
+class BodyComponent extends Component {
+    render(){
         return(
             <div className="container">
                 {Cards.map(card => (
                     <img className="mecha" src={card.img} alt={card.name}/>
                 ))}
+                <div className="portHole">  
+                    <iframe width="220" height="220" src="https://www.youtube.com/embed/P-r4wx5ZYHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         );
+    }
 }
 
 export default BodyComponent;

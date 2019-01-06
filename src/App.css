@@ -2,8 +2,51 @@
   background-color: black;
 }
 
+.portHole {
+  border-radius: 120px;
+  width: 220;
+  height: 220;
+  overflow: hidden;
+  position: absolute;
+  top: 120px;
+  right: 20px;
+}
+
 .mecha {
-  border: solid red  1px;
+  border: solid black  1px;
   width: 240px;
   height: 240px;
+  margin: 10px 10px 10px 10px;
+}
+
+.headerbar {
+  height: 120px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3.0em;
+}
+
+.flashing {
+  height: 220px;
+  width: 100%;
+  background-color: white;
+  margin-left: auto;
+}
+
+.container {
+  margin-top: -220px;
+}
+
+body {
+  background-color: black;
+}
+
+.banner {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.score, .topscore {
+  margin-top: 20px;
+  font-size: 1.0em;
+  margin-left: 120px;
 }
