@@ -1,4 +1,9 @@
 .App {
-  background-color: white;
+  background-color: black;
 }
 
+.mecha {
+  border: solid red  1px;
+  width: 240px;
+  height: 240px;
+}
