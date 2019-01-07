@@ -4,12 +4,22 @@
 
 .portHole {
   border-radius: 120px;
-  width: 220;
-  height: 220;
+  width: 220px;
+  height: 220px;
   overflow: hidden;
   position: absolute;
   top: 120px;
   right: 20px;
+}
+
+.spacyLogo {
+  border-radius: 120px;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  position: absolute;
+  top: 120px;
+  right: 1300px;
 }
 
 .mecha {
@@ -23,6 +33,7 @@
   height: 120px;
   font-family: 'PT Sans', sans-serif;
   font-size: 3.0em;
+  background-color: red;
 }
 
 .flashing {
@@ -34,6 +45,8 @@
 
 .container {
   margin-top: -220px;
+  margin-left: 220px;
+  margin-right: auto;
 }
 
 body {

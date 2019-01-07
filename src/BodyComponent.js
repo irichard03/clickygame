@@ -13,6 +13,9 @@ class BodyComponent extends Component {
                 <div className="portHole">  
                     <iframe width="220" height="220" src="https://www.youtube.com/embed/P-r4wx5ZYHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <div className="spacyLogo">  
+                    <img width="220" height="220" src="UN_Spacy_Logo.png" alt="UN SPACY Logo" />
+                </div>
             </div>
         );
     }
