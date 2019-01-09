@@ -18,6 +18,8 @@ class BodyComponent extends Component {
         //if score = 0
         if(this.state.score === 0){
             this.setState({score: 1})
+            let myArray = this.state.cards.filter( card => card.id !== this.state.cards[cardID].id);   //check ID
+            this.setState({cards: myArray});
         }
         //if score > 0
         else {
@@ -35,7 +37,7 @@ class BodyComponent extends Component {
                     let currentscore = this.state.score;
                     currentscore++;
                     this.setState({score: currentscore});
-                    let filterArray = this.state.cards.filter( card => card.name != this.state.cards[cardID].name);
+                    let filterArray = this.state.cards.filter( card => card.id !== this.state.cards[cardID].id);
                     this.setState({cards: filterArray});
                 }
             }
