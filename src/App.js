@@ -9,8 +9,6 @@ class App extends Component {
       <div className="App">
         <NavComponent />
         <BodyComponent />
-        <h1>Footer Component goes here</h1>
-        <h1>Footer Links Component goes here</h1>
       </div>
     );
   }

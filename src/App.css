@@ -4,12 +4,13 @@
 
 .portHole {
   border-radius: 120px;
+  border: solid black 4px;
   width: 220px;
   height: 220px;
   overflow: hidden;
   position: absolute;
-  top: 120px;
-  right: 20px;
+  top: 20px;
+  right: 10px;
 }
 
 .spacyLogo {
@@ -18,8 +19,8 @@
   height: 220px;
   overflow: hidden;
   position: absolute;
-  top: 120px;
-  right: 1300px;
+  top: 20px;
+  left: 10px;
 }
 
 .mecha {
@@ -53,13 +54,28 @@ body {
   background-color: black;
 }
 
-.banner {
-  margin-left: 20px;
-  margin-top: 20px;
-}
 
 .score, .topscore {
   margin-top: 20px;
   font-size: 1.0em;
   margin-left: 120px;
+}
+
+.banner {
+  background-color: red;
+  color: white;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 80px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 3.0em;
+  border-bottom: 4px solid black;
+}
+
+
+.scoreOut {
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
 }
